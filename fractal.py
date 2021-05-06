@@ -30,7 +30,7 @@ def tree(size, level):
         # the right subtree
         tree(0.8 * size, level - 1)
 
-        pencolor(0, 255 // level , 0)
+        pencolor(0, 255 // level, 0)
 
         left(2 * angle)
 
